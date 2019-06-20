@@ -1,15 +1,20 @@
 # Simplified AES #
 ***
+
 ## Instalação ##
 
-* ``` pip install -r requirements.txt ```
-
+* ``` $ pip install -r requirements.txt ```
+* ``` $ python setup.py sdist ```
+* ``` $ pip install -e  s_aes/ ```
 ***
+
 ## Testes ##
 
-* ``` python manage.py tests ```
+* ``` $ tests ```
 ***
+
 ## Criptografar CLI ##
 
-* ``` python manage.py encrypt -k (chave) -t (texto) ```
+* ``` $ encrypt -k (chave) -t (texto) ```
+* ``` $ encrypt -k (chave) -t (texto) -p (opcional: caminho para salvar o relatório) ```
 ***
