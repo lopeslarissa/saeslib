@@ -1,0 +1,20 @@
+# coding: utf-8
+S_BOX = ["1001", "0100", "1010", "1011",
+         "1101", "0001", "1000", "0101",
+         "0110", "0010", "0000", "0011",
+         "1100", "1110", "1111", "0111"]
+S_BOX_I = ["1010", "0101", "1001", "1011",
+           "0001", "0001", "1000", "1111",
+           "0110", "0000", "0010", "0011",
+           "1100", "0100", "1101", "1110"]
+TRANSFORMATION_MATRIX = [[1, 4], [4, 1]]
+TRANSFORMATION_MATRIX_INVERSE = [[9, 2], [2, 9]]
+ROUND_CONSTANT_ARRAY = ["10000000", "00110000"]
+N_ROUNDS = 3
+KEY_SIZE = 16
+BLOCK_SIZE = KEY_SIZE
+WORD_SIZE = 8
+NIBBLE_SIZE = 4
+CARACTER_SIZE = 8
+ROUNDS_RANGE_CIPHER = range(N_ROUNDS)
+ROUNDS_RANGE_DECIPHER = range((N_ROUNDS - 1), -1, -1)
