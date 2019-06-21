@@ -1,0 +1,377 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019, Larissa Lopes
+# This file is distributed under the same license as the s_aes package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: s_aes \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-06-20 18:50-0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.7.0\n"
+
+#: ../../source/index.rst:23
+msgid "Contents:"
+msgstr ""
+
+#: ../../source/index.rst:7
+msgid "Documentação S_AES"
+msgstr ""
+
+#: ../../source/index.rst:10
+msgid "Sumário"
+msgstr ""
+
+#: ../../source/index.rst:12
+msgid ":ref:`search`"
+msgstr ""
+
+#: ../../source/index.rst:13
+msgid ":ref:`key_expansion`"
+msgstr ""
+
+#: ../../source/index.rst:14
+msgid ":ref:`add_round_key`"
+msgstr ""
+
+#: ../../source/index.rst:15
+msgid ":ref:`substitute_nibble`"
+msgstr ""
+
+#: ../../source/index.rst:16
+msgid ":ref:`shift_row`"
+msgstr ""
+
+#: ../../source/index.rst:17
+msgid ":ref:`mix_column`"
+msgstr ""
+
+#: ../../source/index.rst:18
+msgid ":ref:`cipher`"
+msgstr ""
+
+#: ../../source/index.rst:19
+msgid ":ref:`report`"
+msgstr ""
+
+#: ../../source/index.rst:20
+msgid ":ref:`utils`"
+msgstr ""
+
+#: ../../source/index.rst:29
+msgid "Algoritmo"
+msgstr ""
+
+#: ../../source/index.rst:35
+msgid "Expansão da Chave"
+msgstr ""
+
+#: of s_aes.key_expansion.complex_function:1
+msgid "Efetua um deslocamento de linha na palavra"
+msgstr ""
+
+#: of s_aes.key_expansion.complex_function:2
+msgid "Faz substituição na palavra usando a caixa-S"
+msgstr ""
+
+#: of s_aes.key_expansion.complex_function:3
+msgid ""
+"Com o resultado das operações anteriores, faz um XOR bit a bit com a "
+"constante da rodada"
+msgstr ""
+
+#: of s_aes.add_round_key.add_round_key s_aes.cipher.cipher
+#: s_aes.cipher.cipher_rounds s_aes.cipher.decipher_rounds
+#: s_aes.cipher.extract_block s_aes.cipher.state_to_text
+#: s_aes.cipher.text_to_state s_aes.key_expansion.complex_function
+#: s_aes.key_expansion.key_expansion s_aes.key_expansion.key_format
+#: s_aes.key_expansion.set_previous_word s_aes.key_expansion.set_word_array
+#: s_aes.mix_column.array_to_matrix s_aes.mix_column.mix_column
+#: s_aes.mix_column.multiply_matrix s_aes.shift_row.shift_row
+#: s_aes.utils.elements_to_binary s_aes.utils.elements_to_int
+#: s_aes.utils.string_to_array
+msgid "Parameters"
+msgstr ""
+
+#: of s_aes.key_expansion.complex_function:5
+#: s_aes.key_expansion.set_previous_word:4
+#: s_aes.key_expansion.set_previous_word:5 s_aes.key_expansion.set_word_array:4
+msgid "palavra"
+msgstr ""
+
+#: of s_aes.key_expansion.complex_function:6
+msgid "constante da rodada"
+msgstr ""
+
+#: of s_aes.add_round_key.add_round_key s_aes.cipher.cipher
+#: s_aes.cipher.cipher_rounds s_aes.cipher.decipher_rounds
+#: s_aes.cipher.extract_block s_aes.cipher.state_to_text
+#: s_aes.cipher.text_to_state s_aes.key_expansion.complex_function
+#: s_aes.key_expansion.key_expansion s_aes.key_expansion.key_format
+#: s_aes.key_expansion.set_previous_word s_aes.key_expansion.set_word_array
+#: s_aes.mix_column.array_to_matrix s_aes.mix_column.mix_column
+#: s_aes.mix_column.multiply_matrix s_aes.shift_row.shift_row
+#: s_aes.utils.elements_to_binary s_aes.utils.elements_to_int
+#: s_aes.utils.string_to_array
+msgid "Returns"
+msgstr ""
+
+#: of s_aes.key_expansion.complex_function:7
+msgid "retorna um número inteiro"
+msgstr ""
+
+#: of s_aes.key_expansion.key_expansion:1
+msgid ""
+"Expande a chave de entrada em uma lista de palavras, Para isso faz um XOR"
+" bit a bit entre a palavra e a palavra anterior. Porém, se o índice da "
+"palavra for um múltiplo de 2 são realizadas funções adicionais."
+msgstr ""
+
+#: of s_aes.key_expansion.key_expansion:4 s_aes.key_expansion.key_format:3
+msgid "chave de entrada"
+msgstr ""
+
+#: of s_aes.key_expansion.key_expansion:5 s_aes.key_expansion.set_word_array:5
+#: s_aes.key_expansion.set_word_array:6
+msgid "lista de palavras"
+msgstr ""
+
+#: of s_aes.key_expansion.key_format:1
+msgid "Verifica inconsistências na chave inserida"
+msgstr ""
+
+#: of s_aes.key_expansion.key_format:4
+msgid "chave"
+msgstr ""
+
+#: of s_aes.key_expansion.set_previous_word:1
+msgid "define a palavra anterior no caso de índice múltiplo de 2"
+msgstr ""
+
+#: of s_aes.key_expansion.set_previous_word:3
+#: s_aes.key_expansion.set_word_array:3
+msgid "índice"
+msgstr ""
+
+#: of s_aes.key_expansion.set_word_array:1
+msgid "Adiciona as novas palavras na lista"
+msgstr ""
+
+#: ../../source/index.rst:43
+msgid "Adição de Chave da Rodada"
+msgstr ""
+
+#: of s_aes.add_round_key.add_round_key:1
+msgid "XOR bit a bit entre o vetor estado e a chave da rodada"
+msgstr ""
+
+#: of s_aes.add_round_key.add_round_key:3 s_aes.cipher.cipher_rounds:3
+#: s_aes.cipher.decipher_rounds:3
+msgid "número da rodada"
+msgstr ""
+
+#: of s_aes.add_round_key.add_round_key:4 s_aes.cipher.cipher_rounds:5
+#: s_aes.cipher.decipher_rounds:5 s_aes.cipher.state_to_text:3
+#: s_aes.mix_column.mix_column:4 s_aes.shift_row.shift_row:3
+#: s_aes.shift_row.shift_row:4 s_aes.utils.elements_to_binary:3
+#: s_aes.utils.elements_to_binary:4 s_aes.utils.elements_to_int:3
+#: s_aes.utils.elements_to_int:4 s_aes.utils.string_to_array:5
+msgid "vetor estado"
+msgstr ""
+
+#: of s_aes.add_round_key.add_round_key:5 s_aes.cipher.cipher_rounds:4
+#: s_aes.cipher.decipher_rounds:4
+msgid "array contendo todas as palavras que geram as chaves"
+msgstr ""
+
+#: of s_aes.add_round_key.add_round_key:6 s_aes.mix_column.mix_column:6
+msgid "vetor estado com elementos em representação binária"
+msgstr ""
+
+#: ../../source/index.rst:51
+msgid "Substituição de nibbles"
+msgstr ""
+
+#: of s_aes.substitute_sbox.substitute_sbox:1
+msgid ""
+"Substituição dos nibbles de acordo com a caixa-S :param state: vetor "
+"estado :param sbox: caixa-S. Use S_BOX para caixa-S e S_BOX_I para "
+"caixa-S inversa :return: vetor estado"
+msgstr ""
+
+#: ../../source/index.rst:59
+msgid "Deslocamento de linhas"
+msgstr ""
+
+#: of s_aes.shift_row.shift_row:1
+msgid "Rotação circular à esquerda de uma posição na segunda linha da matriz"
+msgstr ""
+
+#: ../../source/index.rst:67
+msgid "Embaralhamento de Colunas"
+msgstr ""
+
+#: of s_aes.mix_column.array_to_matrix:1
+msgid ""
+"Converte um vetor linear em uma matriz de tamanho 2x2, ordenando por "
+"coluna"
+msgstr ""
+
+#: of s_aes.mix_column.array_to_matrix:3
+msgid "vetor"
+msgstr ""
+
+#: of s_aes.mix_column.array_to_matrix:4
+msgid "matriz"
+msgstr ""
+
+#: of s_aes.mix_column.matrix_to_array:1
+msgid ""
+"Converte uma matriz de tamanho 2x2 em um vetor linear, ordenando por "
+"coluna :param matrix: matriz :return: vetor"
+msgstr ""
+
+#: of s_aes.mix_column.mix_column:1
+msgid ""
+"Multiplicação entre o vetor estado e a matriz da transformação. Para "
+"isso, converte o vetror estado em matriz e pós a multiplicação converte "
+"em vetor novamente"
+msgstr ""
+
+#: of s_aes.mix_column.mix_column:5
+msgid "matriz da transformação"
+msgstr ""
+
+#: of s_aes.mix_column.multiply_matrix:1
+msgid ""
+"Multiplica duas matrizes 2x2 com as operações internas sobre o corpo "
+"finito GF(2⁴)"
+msgstr ""
+
+#: of s_aes.mix_column.multiply_matrix:3
+msgid "primeira matriz"
+msgstr ""
+
+#: of s_aes.mix_column.multiply_matrix:4
+msgid "segunda matriz"
+msgstr ""
+
+#: of s_aes.mix_column.multiply_matrix:5
+msgid "matriz resultado"
+msgstr ""
+
+#: ../../source/index.rst:75
+msgid "Cifra"
+msgstr ""
+
+#: of s_aes.cipher.cipher:1
+msgid "Criptografa ou descriptografa o texto inserido de acordo com os parametros"
+msgstr ""
+
+#: of s_aes.cipher.cipher:3
+msgid "texto a ser criptografado ou descriptografado"
+msgstr ""
+
+#: of s_aes.cipher.cipher:4
+msgid "chave usada para criptografar ou descriptografar"
+msgstr ""
+
+#: of s_aes.cipher.cipher:5
+msgid ""
+"define o número de rodadas. Use ROUNDS_RANGE_CIPHER para criptografar e "
+"ROUNDS_RANGE_DECIPHER para desciptografar"
+msgstr ""
+
+#: of s_aes.cipher.cipher:7
+msgid ""
+"define se a função será de criptografia ou descriptografia. Use "
+"cipher_rounds para criptografar e decipher_rounds para desciptografar"
+msgstr ""
+
+#: of s_aes.cipher.cipher:9
+msgid "texto criptografado ou descriptografado respectivamente"
+msgstr ""
+
+#: of s_aes.cipher.cipher_rounds:1
+msgid "Executa as rodadas de criptografia"
+msgstr ""
+
+#: of s_aes.cipher.cipher_rounds:6
+msgid "vetor estado criptografada"
+msgstr ""
+
+#: of s_aes.cipher.decipher_rounds:1
+msgid "Executa as rodadas de descriptografia"
+msgstr ""
+
+#: of s_aes.cipher.decipher_rounds:6
+msgid "vetor estado descriptografada"
+msgstr ""
+
+#: of s_aes.cipher.extract_block:1
+msgid "Extrai blocos do texto"
+msgstr ""
+
+#: of s_aes.cipher.extract_block:3 s_aes.cipher.text_to_state:3
+msgid "texto de entrada"
+msgstr ""
+
+#: of s_aes.cipher.extract_block:4
+msgid "tamanho do bloco a ser extraído"
+msgstr ""
+
+#: of s_aes.cipher.extract_block:5
+msgid "texto estraído"
+msgstr ""
+
+#: of s_aes.cipher.state_to_text:1
+msgid "Converte o vetor estado em texto plano"
+msgstr ""
+
+#: of s_aes.cipher.state_to_text:4
+msgid "texto plano"
+msgstr ""
+
+#: of s_aes.cipher.text_to_state:1
+msgid "Formata o texto de entrada em uma lista de matrizes estado"
+msgstr ""
+
+#: of s_aes.cipher.text_to_state:4
+msgid "lista de matrizes estado"
+msgstr ""
+
+#: ../../source/index.rst:83
+msgid "Relatório"
+msgstr ""
+
+#: ../../source/index.rst:90
+msgid "Funções úteis"
+msgstr ""
+
+#: of s_aes.utils.elements_to_binary:1
+msgid "Formata os elementos do vetor estado para repesentação binária"
+msgstr ""
+
+#: of s_aes.utils.elements_to_int:1
+msgid "Formata os elementos do vetor estado para números inteiros"
+msgstr ""
+
+#: of s_aes.utils.string_to_array:1
+msgid "Transforma um texto em vetor estado"
+msgstr ""
+
+#: of s_aes.utils.string_to_array:3
+msgid "texto"
+msgstr ""
+
+#: of s_aes.utils.string_to_array:4
+msgid "tamanho do nibble"
+msgstr ""
+
