@@ -1,6 +1,6 @@
 # coding: utf-8
 import unittest
-from s_aes.key_expansion_function import complex_function
+from s_aes.key_expansion import complex_function
 
 
 class TestComplexFunction(unittest.TestCase):

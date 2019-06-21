@@ -1,12 +1,12 @@
 # coding: utf-8
 import unittest
-from s_aes.add_key_round_function import add_round_key
-from s_aes.cipher_function import cipher_rounds, decipher_rounds
+from s_aes.add_round_key import add_round_key
+from s_aes.cipher import cipher_rounds, decipher_rounds
 from s_aes.constants import TRANSFORMATION_MATRIX, S_BOX, TRANSFORMATION_MATRIX_INVERSE, S_BOX_I
-from s_aes.key_expansion_function import key_expansion, key_format
-from s_aes.mix_column_function import mix_column
-from s_aes.shift_row_function import shift_row
-from s_aes.substitute_sbox_function import substitute_sbox
+from s_aes.key_expansion import key_expansion, key_format
+from s_aes.mix_column import mix_column
+from s_aes.shift_row import shift_row
+from s_aes.substitute_sbox import substitute_sbox
 
 
 class TestRounds(unittest.TestCase):

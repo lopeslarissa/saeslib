@@ -1,6 +1,6 @@
 # coding: utf-8
 import unittest
-from s_aes.shift_row_function import shift_row
+from s_aes.shift_row import shift_row
 
 
 class TestShiftRow(unittest.TestCase):

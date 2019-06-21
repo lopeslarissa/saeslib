@@ -1,6 +1,6 @@
 # coding: utf-8
 import unittest
-from s_aes.substitute_sbox_function import substitute_sbox
+from s_aes.substitute_sbox import substitute_sbox
 from s_aes.constants import S_BOX, S_BOX_I
 
 

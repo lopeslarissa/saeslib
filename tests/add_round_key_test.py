@@ -1,7 +1,7 @@
 # coding: utf-8
 import unittest
-from s_aes.add_key_round_function import add_round_key
-from s_aes.key_expansion_function import key_format, key_expansion
+from s_aes.add_round_key import add_round_key
+from s_aes.key_expansion import key_format, key_expansion
 
 
 class TestAddRoundKey(unittest.TestCase):

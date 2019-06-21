@@ -1,6 +1,6 @@
 # coding: utf-8
 import unittest
-from s_aes.mix_column_function import mix_column
+from s_aes.mix_column import mix_column
 from s_aes.constants import TRANSFORMATION_MATRIX, TRANSFORMATION_MATRIX_INVERSE
 
 

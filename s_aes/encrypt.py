@@ -3,7 +3,7 @@
 import json
 import argparse
 import os
-from s_aes.report_generate_function import set_context
+from s_aes.report_generate import set_context
 
 
 def main():

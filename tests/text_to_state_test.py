@@ -1,6 +1,6 @@
 # coding: utf-8
 import unittest
-from s_aes.cipher_function import text_to_state
+from s_aes.cipher import text_to_state
 
 
 class TestTextToState(unittest.TestCase):

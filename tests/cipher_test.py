@@ -1,6 +1,6 @@
 # coding: utf-8
 import unittest
-from s_aes.cipher_function import cipher, cipher_rounds, decipher_rounds
+from s_aes.cipher import cipher, cipher_rounds, decipher_rounds
 from s_aes.constants import ROUNDS_RANGE_CIPHER, ROUNDS_RANGE_DECIPHER
 
 

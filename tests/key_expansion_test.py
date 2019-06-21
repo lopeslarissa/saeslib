@@ -1,6 +1,6 @@
 # coding: utf-8
 import unittest
-from s_aes.key_expansion_function import key_expansion, key_format
+from s_aes.key_expansion import key_expansion, key_format
 
 
 class TestKeyExpansion(unittest.TestCase):
