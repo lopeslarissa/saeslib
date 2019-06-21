@@ -19,6 +19,10 @@ setuptools.setup(
         "Operating System :: OS Independent",
     ],
     entry_points={
-        'console_scripts': ['encrypt=s_aes.encrypt:main', 'tests=tests.tests:main'],
+        'console_scripts': [
+            'encrypt=s_aes.encrypt:main',
+            'decrypt=s_aes.decrypt:main',
+            'tests=tests.tests:main'
+        ],
     },
 )

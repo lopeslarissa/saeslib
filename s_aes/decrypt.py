@@ -3,7 +3,7 @@
 import json
 import argparse
 import os
-from s_aes.report_generate import set_context_encrypt
+from s_aes.report_generate import set_context_decrypt
 
 
 def main():
@@ -16,7 +16,7 @@ def main():
                         help='Local para salvar o relatório', type=dir_path)
     args = parser.parse_args()
     with open(str(args.path) + 'report.json', 'w') as outfile:
-        json.dump(set_context_encrypt(args.text, args.key), outfile, indent=4)
+        json.dump(set_context_decrypt(args.text, args.key), outfile, indent=4)
 
 
 def dir_path(path):
