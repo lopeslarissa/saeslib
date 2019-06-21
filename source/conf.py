@@ -55,3 +55,5 @@ html_static_path = ['_static']
 
 locale_dirs = ['locale/']   # path is example but recommended.
 gettext_compact = False     # optional.
+
+master_doc = 'index'
