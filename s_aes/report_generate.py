@@ -77,8 +77,7 @@ def loop_mix_column(state_array, matrix=TRANSFORMATION_MATRIX):
     executa a função de embaralhamanto de coluna em todos os estados do vetor
 
     :param state_array: vetor de estados
-    :param matrix: Matriz da transformação, use TRANSFORMATION_MATRIX para criptografar e
-    TRANSFORMATION_MATRIX_INVERSE para descriptografar
+    :param matrix: Matriz da transformação, use TRANSFORMATION_MATRIX para criptografar e TRANSFORMATION_MATRIX_INVERSE para descriptografar
     :return: vetor de estados
     """
     return [mix_column(state, matrix) for state in state_array]
