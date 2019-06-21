@@ -52,6 +52,7 @@ def set_context_decrypt(text, key):
 def loop_substitute_nibble(state_array, sbox=S_BOX):
     """
     executa a função de substituição de nibbles em todos os estados do vetor
+
     :param state_array: vetor de estados
     :param sbox: caixa-S, use S_BOX para criptografar e S_BOX_I para descriptografar
     :return: vetor de estados
@@ -62,6 +63,7 @@ def loop_substitute_nibble(state_array, sbox=S_BOX):
 def loop_add_key(round, state_array, word_array):
     """
     executa a função de adição da chave da rodada em todos os estados do vetor
+
     :param round: número da rodada
     :param state_array: vetor de estados 
     :param word_array: vetor de palavras
@@ -73,6 +75,7 @@ def loop_add_key(round, state_array, word_array):
 def loop_mix_column(state_array, matrix=TRANSFORMATION_MATRIX):
     """
     executa a função de embaralhamanto de coluna em todos os estados do vetor
+
     :param state_array: vetor de estados
     :param matrix: Matriz da transformação, use TRANSFORMATION_MATRIX para criptografar e
     TRANSFORMATION_MATRIX_INVERSE para descriptografar
@@ -84,6 +87,7 @@ def loop_mix_column(state_array, matrix=TRANSFORMATION_MATRIX):
 def loop_shift_row(state_array):
     """
     executa a função de deslocamento de linhas em todos os estados do vetor
+
     :param state_array: vetor de estados
     :return: vetor de estados
     """
@@ -93,6 +97,7 @@ def loop_shift_row(state_array):
 def round_0_encrypt(state_array, word_array):
     """
     executa as funções da primeira rodada de criptografia e gera um dicionário com o retorno das funções
+
     :param state_array: vetor de estados
     :param word_array: vetor de palavras
     :return: dicionário python
@@ -103,6 +108,7 @@ def round_0_encrypt(state_array, word_array):
 def round_0_decrypt(state_array, word_array):
     """
     executa as funções da primeira rodada de descriptografia e gera um dicionário com o retorno das funções
+
     :param state_array: vetor de estados
     :param word_array: vetor de palavras
     :return: dicionário python
@@ -113,6 +119,7 @@ def round_0_decrypt(state_array, word_array):
 def round_1_encrypt(state_array, word_array):
     """
     executa as funções da segunda rodada de criptografia e gera um dicionário com o retorno das funções
+
     :param state_array: vetor de estados
     :param word_array: vetor de palavras
     :return: dicionário python
@@ -130,6 +137,7 @@ def round_1_encrypt(state_array, word_array):
 def round_1_decrypt(state_array, word_array):
     """
     executa as funções da segunda rodada de descriptografia e gera um dicionário com o retorno das funções
+
     :param state_array: vetor de estados
     :param word_array: vetor de palavras
     :return: dicionário python
@@ -147,6 +155,7 @@ def round_1_decrypt(state_array, word_array):
 def round_2_encrypt(state_array, word_array):
     """
     executa as funções da terceira rodada de criptografia e gera um dicionário com o retorno das funções
+
     :param state_array: vetor de estados
     :param word_array: vetor de palavras
     :return: dicionário python
@@ -162,6 +171,7 @@ def round_2_encrypt(state_array, word_array):
 def round_2_decrypt(state_array, word_array):
     """
     executa as funções da terceia rodada de descriptografia e gera um dicionário com o retorno das funções
+
     :param state_array: vetor de estados
     :param word_array: vetor de palavras
     :return: dicionário python
