@@ -2,6 +2,7 @@
 
 ***
 
+
 ## Instalação ##
 
 * ``` $ pip install -r requirements.txt ```
@@ -10,11 +11,13 @@
 
 ***
 
+
 ## Testes ##
 
 * ``` $ tests ```
 
 ***
+
 
 ## Criptografar CLI ##
 
@@ -22,3 +25,4 @@
 * ``` $ encrypt -k (chave) -t (texto) -p (opcional: caminho para salvar o relatório) ```
 
 ***
+
