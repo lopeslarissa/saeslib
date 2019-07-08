@@ -10,6 +10,7 @@ Algoritmo
 Implementação em Python de um algoritmo AES simplificado que segue o modelo S-AES desenvolvido por Edward Schaefer
 
 `Repositório do projeto <http://https://bitbucket.org/lopeslarissa/s_aes/>`_
+`Exemplo de uso <http://https://bitbucket.org/lopeslarissa/simple-aes/>`_
 
 
 Instalação
