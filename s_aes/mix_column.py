@@ -23,6 +23,7 @@ def mix_column(state, transformation_matrix):
 def matrix_to_array(matrix):
     """
     Converte uma matriz de tamanho 2x2 em um vetor linear, ordenando por coluna
+
     :param matrix: matriz
     :return: vetor
     """

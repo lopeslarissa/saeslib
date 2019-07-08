@@ -4,7 +4,7 @@ with open("README.md", "r", encoding='utf-8') as fh:
     long_description = fh.read()
 
 setuptools.setup(
-    name="s_aes",
+    name="saeslib",
     version="0.0.1",
     author="Larissa Lopes",
     author_email="lopes.larissalopes@gmail.com",
