@@ -27,7 +27,7 @@ def dir_path(path):
     if os.path.isdir(path):
         return path
     else:
-        raise argparse.ArgumentTypeError("{}: não é um local valido".format(path))
+        raise argparse.ArgumentTypeError("{}: não é um local válido".format(path))
 
 
 if __name__ == '__main__':
