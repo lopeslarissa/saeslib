@@ -15,7 +15,11 @@ def main():
     parser.add_argument('-p', action='store', dest='path',
                         help='Local para salvar o relatório', type=dir_path)
     args = parser.parse_args()
-    with open(str(args.path) + 'report.json', 'w') as outfile:
+    if args.path:
+        args.path = str(args.path)
+    else:
+        args.path = ''
+    with open(args.path + 'report.json', 'w') as outfile:
         json.dump(set_context_encrypt(args.text, args.key), outfile, indent=4)
 
 

@@ -7,7 +7,7 @@ from s_aes.report_generate import set_context_decrypt
 
 
 def main():
-    parser = argparse.ArgumentParser(description='Algoritmo de criptografia AES simplificado')
+    parser = argparse.ArgumentParser(description='Algoritmo de descriptografia AES simplificado')
     parser.add_argument('-k', action='store', dest='key', required=True,
                         help='Chave de 16 bits', type=int)
     parser.add_argument('-t', action='store', dest='text', required=True,
@@ -15,6 +15,10 @@ def main():
     parser.add_argument('-p', action='store', dest='path',
                         help='Local para salvar o relatório', type=dir_path)
     args = parser.parse_args()
+    if args.path:
+        args.path = str(args.path)
+    else:
+        args.path = ''
     with open(str(args.path) + 'report.json', 'w') as outfile:
         json.dump(set_context_decrypt(args.text, args.key), outfile, indent=4)
 
