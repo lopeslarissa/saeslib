@@ -5,7 +5,7 @@ with open("README.md", "r", encoding='utf-8') as fh:
 
 setuptools.setup(
     name="saeslib",
-    version="0.0.1",
+    version="1.0.0",
     author="Larissa Lopes",
     author_email="lopes.larissalopes@gmail.com",
     description="Simplified AES implementation in Python",
@@ -17,6 +17,8 @@ setuptools.setup(
         "Programming Language :: Python :: 3",
         "Operating System :: OS Independent",
     ],
+    install_requires=['numpy', 'pyfinite'],
+    python_requires='>=3',
     entry_points={
         'console_scripts': [
             'encrypt=s_aes.encrypt:main',
