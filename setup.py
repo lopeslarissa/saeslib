@@ -11,7 +11,7 @@ setuptools.setup(
     description="Simplified AES implementation in Python",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://bitbucket.org/lopeslarissa/s-aes/",
+    url="https://github.com/lopeslarissa/saeslib",
     packages=setuptools.find_packages(),
     classifiers=[
         "Programming Language :: Python :: 3",
