@@ -1,4 +1,4 @@
-# Simplified AES #
+# saeslib #
 
 [Documentação](https://s-aes.readthedocs.io/en/latest/)
 
