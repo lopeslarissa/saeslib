@@ -21,10 +21,15 @@
 ***
 
 
-## Criptografar CLI ##
+## CLI ##
+
+### Criptografia ###
 
 * ``` $ encrypt -k (chave) -t (texto) ```
 * ``` $ encrypt -k (chave) -t (texto) -p (opcional: caminho para salvar o relatório) ```
 
-***
+### Descriptografia ###
 
+* ``` $ decrypt -k (chave) -t (texto) ```
+
+***
